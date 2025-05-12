@@ -15,7 +15,7 @@ include(cmake/CPM.cmake)
 CPMAddPackage(
     NAME nlohmann_json
     GITHUB_REPOSITORY nlohmann/json
-    GIT_TAG v3.12.0
+    GIT_TAG develop
     OPTIONS
         "CMAKE_CXX_STANDARD 20"
         "CMAKE_CXX_STANDARD_REQUIRED YES"
